@@ -1,0 +1,3 @@
+/* Paleta aproximada 60-30-10; familia de títulos propia. */
+:root{--base:#240e13;--secundario:#742936;--acento:#eac477;--titulo:Valor;}
+.scene{border-radius:5px 150px 5px 5px}.hero-copy{border-left:3px solid var(--acento);padding-left:28px}.quote{background:linear-gradient(120deg,var(--secundario),var(--base))}

@@ -1,0 +1,3 @@
+/* Paleta aproximada 60-30-10; familia de títulos propia. */
+:root{--base:#0b211c;--secundario:#255647;--acento:#d4e0dc;--titulo:Ambicion;}
+.hero-layout{grid-template-columns:.9fr 1.1fr}.hero-art{grid-column:1;grid-row:1}.hero-copy{grid-column:2;grid-row:1}.scene{border-radius:180px 180px 0 0}.eyebrow{letter-spacing:.25em}.people .person{border-top:3px solid var(--acento)}@media(max-width:640px){.hero-layout{grid-template-columns:1fr}.hero-copy{grid-column:1;grid-row:1}.hero-art{grid-column:1;grid-row:2}}
