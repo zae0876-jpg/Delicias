@@ -1,2 +1,242 @@
-# Delicias
-Sitio web sobre reposteria 
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hogwarts</title>
+        <link rel="stylesheet" href="estilos/general.css">
+        <link rel="stylesheet" href="estilos/inicio.css">
+    </head>
+
+
+
+    <body>
+        <header class="site-header">
+            <div class="wrap header-inner">
+                <a class="brand" href="index.html">
+                    HOGWARTS
+                </a>
+
+                <nav aria-label="Navegación principal">
+                    <a href="index.html" aria-current="page">Inicio</a>
+                    <a href="gryffindor.html">Gryffindor</a>
+                    <a href="slytherin.html">Slytherin</a>
+                    <a href="ravenclaw.html">Ravenclaw</a>
+                    <a href="hufflepuff.html">Hufflepuff</a>
+                </nav>
+            </div>
+        </header>
+
+
+        <main id="contenido">
+            <section class="home-hero" aria-labelledby="titulo">
+                <div class="wrap">
+                  
+                    <h1 id="titulo">
+                        La magia comienza<br>
+                        con una elección.
+                    </h1>
+
+                    <p class="subtitle">
+                        Descubre las casas de Hogwarts
+                    </p>
+
+                    <p>
+                        Valor, ambición, sabiduría y lealtad.
+                        Explora las historias que dan identidad a cada rincón
+                        del castillo.
+                    </p>
+
+                </div>
+            </section>
+
+            
+            <div class="wrap">
+                <section class="intro-paper">
+                    <div>
+                        <span class="eyebrow">
+                            El origen de una comunidad
+                        </span>
+
+                        <h2>
+                            Distintas cualidades.<br>
+                            Un mismo Hogwarts.
+                        </h2>
+                    </div>
+
+                    <div>
+                        <p>
+                            Godric Gryffindor, Salazar Slytherin, Rowena Ravenclaw
+                            y Helga Hufflepuff fundaron el colegio. Cada casa
+                            conserva el nombre y los ideales de uno de ellos.
+                        </p>
+
+                        <p>
+                            Las casas son comunidades dentro de la escuela.
+                            Sus emblemas, colores y espacios expresan una
+                            identidad compartida, sin reducir a sus miembros
+                            a una sola cualidad.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="casas" class="section">
+                    <div class="section-head">
+                        <div>
+                            <span class="eyebrow">Elige tu recorrido</span>
+                            <h2>Cuatro casas, cuatro historias</h2>
+                        </div>
+
+                        <p>
+                            Cada puerta conduce a una página con su propia
+                            paleta, tipografía y composición.
+                        </p>
+                    </div>
+
+                    <div class="cards">
+                        <article class="card" data-house="gryffindor">
+                            <img
+                                class="scene-mini"
+                                src="recursos/gryffindor.png"
+                                alt="Interpretación de la sala común de Gryffindor"
+                            >
+
+                            <div class="content">
+                                <img
+                                    class="tiny-crest"
+                                    src="recursos/escudo-gryffindor.PNG"
+                                    alt="Emblema reinterpretado: León"
+                                >
+
+                                <h3>Gryffindor</h3>
+                                <p>Valentía · Determinación · Audacia</p>
+
+                                <a class="link" href="gryffindor.html">
+                                    Explorar la casa →
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="card" data-house="slytherin">
+                            <img
+                                class="scene-mini"
+                                src="recursos/slytherin.png"
+                                alt="Interpretación de la sala común de Slytherin"
+                            >
+
+                            <div class="content">
+                                <img
+                                    class="tiny-crest"
+                                    src="recursos/escudo-slytherin.svg"
+                                    alt="Emblema reinterpretado: Serpiente"
+                                >
+
+                                <h3>Slytherin</h3>
+                                <p>Ambición · Astucia · Ingenio estratégico</p>
+
+                                <a class="link" href="slytherin.html">
+                                    Explorar la casa →
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="card" data-house="ravenclaw">
+                            <img
+                                class="scene-mini"
+                                src="recursos/ravenclaw.png"
+                                alt="Interpretación de la sala común de Ravenclaw"
+                            >
+
+                            <div class="content">
+                                <img
+                                    class="tiny-crest"
+                                    src="recursos/escudo-ravenclaw.svg"
+                                    alt="Emblema reinterpretado: Águila"
+                                >
+
+                                <h3>Ravenclaw</h3>
+                                <p>Sabiduría · Creatividad · Curiosidad</p>
+
+                                <a class="link" href="ravenclaw.html">
+                                    Explorar la casa →
+                                </a>
+                            </div>
+                        </article>
+
+                        <article class="card" data-house="hufflepuff">
+                            <img
+                                class="scene-mini"
+                                src="recursos/hufflepuff.png"
+                                alt="Interpretación de la sala común de Hufflepuff"
+                            >
+
+                            <div class="content">
+                                <img
+                                    class="tiny-crest"
+                                    src="recursos/escudo-hufflepuff.svg"
+                                    alt="Emblema reinterpretado: Tejón"
+                                >
+
+                                <h3>Hufflepuff</h3>
+                                <p>Lealtad · Paciencia · Justicia</p>
+
+                                <a class="link" href="hufflepuff.html">
+                                    Explorar la casa →
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="design-note">
+                    <div>
+                        <span class="eyebrow">Una mirada al diseño</span>
+
+                        <h3>La identidad también se construye con CSS</h3>
+
+                        <p>
+                            El fondo unifica el sitio. La imagen crea atmósfera.
+                            Los títulos guían la mirada y las tarjetas ordenan
+                            las opciones de navegación.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3>De la idea a la composición</h3>
+
+                        <p>
+                            Grid organiza las cuatro casas; Flexbox distribuye
+                            el menú. Los espacios en blanco separan grupos
+                            y un acento dorado destaca la acción principal.
+                        </p>
+
+                        <details>
+                            <summary>Créditos y fuentes del contenido</summary>
+
+                            <p>
+                                Proyecto educativo no oficial. Harry Potter
+                                y sus personajes pertenecen a sus respectivos
+                                titulares. Arte generado para este ejemplo;
+                                emblemas reinterpretados en SVG.
+                                Datos:
+                                <a href="https://www.harrypotter.com/features/origins-of-hogwarts-school-of-witchcraft-and-wizardry">HarryPotter.com: orígenes de Hogwarts</a>.
+                            </p>
+                        </details>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <div class="wrap footer-inner">
+                <span>
+                    ATLAS DE HOGWARTS · Ejemplo educativo de HTML y CSS
+                </span>
+
+                <span>
+                    M.Sc. Emmanuel Zárate de Vicente ·
+                    Ilustraciones y emblemas reinterpretados
+                </span>
+            </div>
+        </footer>
+    </body>
+</html>
