@@ -1,0 +1,3 @@
+/* Paleta aproximada 60-30-10; familia de títulos propia. */
+:root{--base:#101e35;--secundario:#273f63;--acento:#dcb88c;--titulo:Ingenio;}
+.hero-layout{grid-template-columns:1.1fr .9fr}.scene{border-radius:0;outline:1px solid var(--acento);outline-offset:8px}.hero-copy h1{font-size:clamp(3rem,6vw,5.8rem)}.facts{grid-template-columns:1fr}.fact{display:flex;gap:24px;align-items:baseline}.fact small{min-width:90px}@media(max-width:640px){.hero-layout{grid-template-columns:1fr}}

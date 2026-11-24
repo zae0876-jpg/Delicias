@@ -1,0 +1,47 @@
+/* Registrar la fuente descargada */
+@font-face {
+    font-family: "MiFuente";
+    src: url("HallowenInline.ttf") format("truetype");
+}
+
+/* Cambiar el fondo y el tipo de letra */
+body {
+    background-color: rgb(29, 90, 110);
+    font-family: "MiFuente", Arial, sans-serif;
+}
+
+h1  {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Dar estilo y posición al div */
+.caja {
+    background-color: rgb(168, 197, 226);
+    width: 300px;
+    padding: 40px;
+    border-radius: 10px;
+
+    /* Mover desde su posición original */
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+
+.caja1 {
+    background-image: url("fondo.jpg");
+    width: 300px;
+    padding: 40px;
+    border-radius: 10px;
+    border:solid;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    /* Mover desde su posición original */
+    position: relative;
+    left: 10px;
+    top: 80px;
+}
+/* Cambiar el color del enlace */
+a {
+    color: darkblue;
+}

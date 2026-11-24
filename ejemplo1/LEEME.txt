@@ -1,0 +1,32 @@
+ATLAS DE HOGWARTS | Ejemplo educativo
+Profesor: M.Sc. Emmanuel Zárate de Vicente
+
+INICIO RÁPIDO
+1. Extrae el ZIP completo. Conserva la carpeta ejemplo1 y sus subcarpetas.
+2. Abre ejemplo1/index.html en cualquier navegador moderno.
+3. Navega a las cuatro casas. No requiere conexión, JavaScript ni instalación.
+4. En VS Code abre la carpeta ejemplo1 para modificar los archivos.
+
+MAPA DE ESTILOS
+Cada HTML enlaza general.css y una hoja específica.
+En general.css: @font-face, Grid, Flexbox, espaciado, focus-visible y media queries.
+En inicio.css: hero, tarjetas y paleta del inicio.
+En cada casa: colores, familia de títulos y variaciones de composición.
+Rutas desde CSS: ../fuentes/ y ../recursos/. Desde HTML: estilos/ y recursos/.
+La regla 60-30-10 es una orientación compositiva, no una medición de píxeles.
+
+RECURSOS Y CRÉDITOS
+Fuentes URW Base35: Nimbus Sans (lectura), Nimbus Roman (inicio), P052 (Gryffindor), URW Gothic (Slytherin), C059 (Ravenclaw), URW Bookman (Hufflepuff).
+Licencia y avisos en fuentes/LICENCIA_URW.txt.
+Cinco ilustraciones generadas para este ejemplo; escenas reinterpretadas, no capturas oficiales.
+Cuatro emblemas originales en SVG inspirados en los animales de las casas.
+Frases originales, no citas de personajes o libros.
+Harry Potter, Hogwarts y personajes pertenecen a sus respectivos titulares. Proyecto educativo no oficial.
+
+FUENTES DE INFORMACIÓN
+https://www.harrypotter.com/features/origins-of-hogwarts-school-of-witchcraft-and-wizardry
+https://www.harrypotter.com/fact-file/magical-miscellany/gryffindor
+https://www.harrypotter.com/fact-file/magical-miscellany/slytherin
+https://www.harrypotter.com/fact-file/magical-miscellany/ravenclaw
+https://www.harrypotter.com/fact-file/magical-miscellany/hufflepuff
+https://www.harrypotter.com/features/what-your-hogwarts-house-animal-and-colours-could-mean

@@ -1,0 +1,3 @@
+/* Paleta aproximada 60-30-10; familia de títulos propia. */
+:root{--base:#221d11;--secundario:#594822;--acento:#f1cf64;--titulo:Lealtad;}
+.scene{border-radius:240px 240px 80px 80px}.person{border-radius:26px}.values span{border-radius:30px}.quote{border-radius:40px}.hero-copy h1{font-size:clamp(3rem,6.3vw,5.5rem)}

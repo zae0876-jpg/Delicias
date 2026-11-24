@@ -1,0 +1,7 @@
+/* 60% negro; 30% pergamino/imagen; 10% dorado (orientativo). */
+:root{--base:#121818;--secundario:#24302d;--acento:#eac477;--titulo:Castillo}.home-hero{position:relative;min-height:600px;background:linear-gradient(90deg,#0b1315ef 0%,#0b131599 44%,#0b131522 100%),url('../recursos/hogwarts.png') center/cover}.home-hero .wrap{padding-top:80px;padding-bottom:76px}.home-hero h1{max-width:690px}.home-hero p{max-width:450px}.home-hero .eyebrow{margin-bottom:26px}.home-hero .subtitle{color:var(--acento);font:24px Castillo;margin-bottom:22px}.home-hero .button{margin-top:12px}.home-index{display:flex;gap:32px;margin-top:38px;font-size:12px;letter-spacing:.1em}.home-index strong{display:block;font:28px Castillo;color:var(--acento)}.intro-paper{background:#ebdfc5;color:#242720;padding:48px;margin:60px 0 0;display:grid;grid-template-columns:.85fr 1.15fr;gap:38px}.intro-paper p{color:#44463c;font-size:15px}.intro-paper .eyebrow{color:#765126}.intro-paper h2{font-size:36px}@media(max-width:640px){.home-hero{min-height:620px;background-position:60% center}.home-hero .wrap{padding-top:58px}.intro-paper{grid-template-columns:1fr;padding:26px;gap:14px}.home-index{gap:22px}.home-hero h1{font-size:55px}}
+
+[data-house="gryffindor"]{--secundario:#742936;--acento:#eac477;--titulo:Valor;}
+[data-house="slytherin"]{--secundario:#255647;--acento:#d4e0dc;--titulo:Ambicion;}
+[data-house="ravenclaw"]{--secundario:#273f63;--acento:#dcb88c;--titulo:Ingenio;}
+[data-house="hufflepuff"]{--secundario:#594822;--acento:#f1cf64;--titulo:Lealtad;}
